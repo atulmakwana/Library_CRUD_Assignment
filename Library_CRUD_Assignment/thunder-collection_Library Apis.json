@@ -1,0 +1,97 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Library Apis",
+    "dateExported": "2023-09-21T04:36:14.256Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "09296ebc-e8a3-4b15-87c1-7f5c97b12c88",
+            "name": "Book apis",
+            "containerId": "",
+            "created": "2023-09-20T12:50:25.306Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "90ca767a-5cf4-4d58-ae4c-e265a0b5eb68",
+            "colId": "97b84fe4-0f88-41f1-afbf-902e61d31f0d",
+            "containerId": "09296ebc-e8a3-4b15-87c1-7f5c97b12c88",
+            "name": "create a book",
+            "url": "http://localhost:3002/book",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-09-20T12:50:39.483Z",
+            "modified": "2023-09-21T04:34:44.168Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"book\":\"Book2\",\n  \"author\":\"Author2\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "469fa305-0d39-45ca-84ae-c9d9d2592efa",
+            "colId": "97b84fe4-0f88-41f1-afbf-902e61d31f0d",
+            "containerId": "09296ebc-e8a3-4b15-87c1-7f5c97b12c88",
+            "name": "update a book",
+            "url": "http://localhost:3002/book",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-09-20T12:51:48.026Z",
+            "modified": "2023-09-21T04:35:17.719Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":\"7d1b2349-1078-4ece-97dc-c42f69f1a668\",\n  \"book\":\"updated-Book1\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "59bc90a8-f42b-4f4e-b864-c240e17e97dd",
+            "colId": "97b84fe4-0f88-41f1-afbf-902e61d31f0d",
+            "containerId": "09296ebc-e8a3-4b15-87c1-7f5c97b12c88",
+            "name": "get a single book",
+            "url": "http://localhost:3002/book/7caede37-988b-41da-b67b-581aab0bad8a",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-09-20T12:53:07.655Z",
+            "modified": "2023-09-21T04:35:51.801Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b349cdc0-9650-4ce2-b126-a63b006fddfc",
+            "colId": "97b84fe4-0f88-41f1-afbf-902e61d31f0d",
+            "containerId": "09296ebc-e8a3-4b15-87c1-7f5c97b12c88",
+            "name": "get all books",
+            "url": "http://localhost:3002/book",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-09-20T12:53:34.389Z",
+            "modified": "2023-09-20T12:53:42.109Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "22391531-1b1a-4cde-ba71-517ba2c6c4e7",
+            "colId": "97b84fe4-0f88-41f1-afbf-902e61d31f0d",
+            "containerId": "09296ebc-e8a3-4b15-87c1-7f5c97b12c88",
+            "name": "delete a book",
+            "url": "http://localhost:3002/book/f4e91e24-0d29-476a-a42d-e6433aab1442",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2023-09-20T12:53:57.243Z",
+            "modified": "2023-09-21T04:33:33.946Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
